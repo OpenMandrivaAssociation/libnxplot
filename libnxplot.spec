@@ -10,7 +10,7 @@ Version:	%{version}
 Release:	%{release}
 License:	LGPL
 Group:		Sciences/Mathematics
-URL:		http://numexp.sf.net/
+URL:		https://numexp.sf.net/
 Source:		%{name}-%{version}.tar.bz2
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	libgnomeprintui2-2-devel
