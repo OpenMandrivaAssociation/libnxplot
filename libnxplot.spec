@@ -13,6 +13,11 @@ Group:		Sciences/Mathematics
 URL:		https://numexp.sf.net/
 Source:		%{name}-%{version}.tar.bz2
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libgnomeprintui2-2-devel
 BuildRequires:	pygtk2.0-devel >= 2.4.0
 BuildRequires:	gnome-python >= 2.6.0
