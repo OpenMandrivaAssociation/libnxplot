@@ -1,5 +1,5 @@
 %define	version 0.2
-%define release %mkrel 9
+%define release 10
 
 %define major 0
 %define libname %mklibname nxplot %{major}
